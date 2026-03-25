@@ -88,3 +88,13 @@
 
 //EX 1
 
+// Se o acesso for 3, exiba "Acesso Total"; se for 2, exiba "Acesso Parcial"; senão, exiba "Acesso Negado".
+let nivelAcesso = 1
+
+if (nivelAcesso === 3) {
+    console.log("Acesso Total")
+} else if (nivelAcesso === 2){
+    console.log("Acesso Parcial")
+} else{
+    console.log("Acesso Negado")
+}
